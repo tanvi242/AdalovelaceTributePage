@@ -1,0 +1,124 @@
+  *{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    
+   
+}
+
+  
+  
+  .navbar1{
+    background-color: rgb(182, 126, 180);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    
+   
+  }
+.listsection{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+  .navlist{}
+
+  .navitem:link{
+    text-decoration: none;
+    color: #1b1b1b;
+  }
+  .navitem:hover{
+    text-decoration: underline;
+     color: #1b1b1b;
+  }
+  .navitem:active{
+     color: #1b1b1b;
+  }
+  .navitem:visited{
+     color: #1b1b1b;
+  }
+
+  
+  .logo{
+    width:90px;
+    height: 90px;
+    border-radius: 50px;
+    
+  }
+
+    h1{
+        color:#1b1b1b;
+        text-align: center;
+        text-shadow: 2px 2px 3px ;
+        font-size:xx-large;
+    
+    }
+    h2{
+        text-align: center;
+        color: #2e2e2e;
+        text-shadow: 1px 1px 2px;
+        margin-bottom: 40px;
+    }
+    .aboutdiv{
+      background-image: linear-gradient(90deg,rgba(186, 153, 184, 1) 0%, rgba(145, 201, 168, 1) 61%, rgba(181, 78, 171, 1) 100%);
+    border-radius: 20px 70px;
+    }
+.par1{
+    font-size: 22px;
+    text-align: center;
+    color: #3c2f5c;
+    padding: 20px;
+   
+}
+.par2{
+    font-size: 24px;
+    text-align: center;
+    color: #3c2f5c;
+    padding: 20px;
+  
+}
+.legacydiv{
+     background-image: linear-gradient(90deg,rgba(186, 153, 184, 1) 0%, rgba(145, 201, 168, 1) 61%, rgba(181, 78, 171, 1) 100%);
+    border-radius: 70px 20px;
+    padding: 20px;
+    }
+.keypoint{
+    background-image:linear-gradient(90deg,rgba(131, 115, 209, 1) 0%, rgba(200, 224, 132, 1) 51%, rgba(157, 121, 173, 1) 70%);
+border-radius: 20px;
+padding: 20px;
+}
+.goToTopdiv{
+    width:200px;
+    position:fixed;
+    right: 10px;
+    bottom: 50px;
+    
+
+}
+
+a.goToTop:link{
+    background-color: lightpink;
+    text-decoration: none;
+    color: black;
+}
+a.goToTop:hover{
+    background-color: green;
+    color:brown;
+}
+a.goToTop:active{
+
+}
+a.goToTop:visited{
+background-color: lightpink;
+color: black;
+}
+footer{
+    background-color: #2e2e2e;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+}
